@@ -22,5 +22,9 @@ public class TimeSlot {
 		}
 		return false;
 	}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> 380a0f78c20e11acffe227b37cf3c941d7a96304
 }

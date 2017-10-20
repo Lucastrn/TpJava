@@ -1,7 +1,10 @@
 package tpPackage;
 
 import java.util.GregorianCalendar;
+<<<<<<< HEAD
 import java.util.Calendar;
+=======
+>>>>>>> 380a0f78c20e11acffe227b37cf3c941d7a96304
 
 
 public class TimeSlotGregorien {
@@ -14,6 +17,7 @@ public class TimeSlotGregorien {
 		this.lib = lib;
 	}
 	
+<<<<<<< HEAD
 	public void setDebut(int heure, int minute){
 		Deb.set(Calendar.HOUR, heure);
 		Deb.set(Calendar.MINUTE, minute);
@@ -36,4 +40,11 @@ public class TimeSlotGregorien {
 		}
 		return false;
 	}
+=======
+	private void setStart(){
+		Deb.set(field, value);
+	}
+
+	
+>>>>>>> 380a0f78c20e11acffe227b37cf3c941d7a96304
 }
